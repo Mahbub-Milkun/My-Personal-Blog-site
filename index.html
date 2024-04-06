@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog project</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- -->
+
+    
+</head>
+<body>
+   <!--header start-->
+   <header class="blog-header">
+        <figure class="logo-figure"> <!-- এই ট্যাগে মুলত ইমেজ, লগো ইউজ করা হয়ে থাকে -->
+            <i class="fa-brands fa-autoprefixer logo"></i>
+        </figure>
+        <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+        <nav aria-label="Main Menu" id="menu" class="hidden"> <!-- এই এট্রিবিউট মূলত এবনরমালদের জন্য স্ত্রিন রিদারের জন্য ইউজ করা হয় -->
+            <ul role="menubar" aria-label="Main Menu">
+                <li role="none"><a href="#" class="nav-link" role="menuitem">Home</a></li>
+                <li role="none"><a href="#" class="nav-link" role="menuitem"> About </a></li>
+                <li role="none"><a href="#" class="nav-link" role="menuitem"> Archives </a></li>
+                <li role="none"><a href="#" class="nav-link" role="menuitem"> Blog posts </a></li>
+                <li role="none"><a href="#" class="nav-link" role="menuitem"> Contact </a></li>
+            </ul>
+        </nav>
+   </header>
+   <!--Header end-->
+   
+   <!--Main section start-->
+   <main>
+    <!--banner section start-->
+    <section id="blog-banner-section">
+        <article>
+            <h1 class="banner-heading">Web Development</h1>
+            <p class="banner-description justify-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cum, aperiam est ipsam iure voluptates odio nihil maiores consequuntur mollitia ipsum error possimus ratione, dolores sapiente aliquid, quidem non nobis.</p>
+        </article>
+        <aside>
+            <img src="image/b1.jpg" alt="cover photo" class="banner-image">
+        </aside>
+    </section>
+    <!--Banner section end-->
+
+    <!--About Me section starts-->
+    <section id="about-me" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3 class="card-header"> Education</h3>
+                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi similique aliquid reiciendis eius. Culpa et adipisci qui iste maxime perferendis tenetur porro fugiat autem rem veniam, odit aut consequuntur.</p>
+                <button type="submit" class="card-btn btn"> Order Now</button>
+            </div>
+
+            <div class="card">
+                <h3 class="card-header"> Education</h3>
+                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi similique aliquid reiciendis eius. Culpa et adipisci qui iste maxime perferendis tenetur porro fugiat autem rem veniam, odit aut consequuntur.</p>
+                <button type="submit" class="card-btn btn"> Order Now</button>
+            </div>
+
+            <div class="card">
+                <h3 class="card-header"> Education</h3>
+                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi similique aliquid reiciendis eius. Culpa et adipisci qui iste maxime perferendis tenetur porro fugiat autem rem veniam, odit aut consequuntur.</p>
+                <button type="submit" class="card-btn btn"> Order Now</button>
+            </div>
+
+        </div>
+    </section>
+    <!--About Me section ends-->
+
+    <!--Archive section start-->
+    <secction id="archives" class="section-center">
+        <h2 class="section-heading">Archive </h2>
+        <div class="archive-container">
+            <ul class="archive-lists">
+                <li class="archive-list">
+                    <img src="image/ba1.jpg" alt="" class="archive-image">
+                </li>
+
+                <li class="archive-list">
+                    <img src="image/ba2.jpg" alt="" class="archive-image">
+                </li>
+
+                <li class="archive-list">
+                    <img src="image/ba7.jpg" alt="" class="archive-image">
+                </li>
+
+                <li class="archive-list">
+                    <img src="image/ba4.jpg" alt="" class="archive-image">
+                </li>
+
+                <li class="archive-list">
+                    <img src="image/ba5.jpg" alt="" class="archive-image">
+                </li>
+                
+            </ul>
+
+        </div>
+    </secction>
+    <!--Archive section end-->
+
+    <!--Blog Posts section start-->
+    <section class="blog-posts section-center">
+        <h2 class="section-heading blog-post-main-heading">Blog Posts </h2>
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+                <img src="image/ba6.jpg" alt="blog post image" class="blog-post-image">
+
+            </aside>
+
+            <article class="blog-post-article">
+                <h2 class="blog-post-heading">Blog 1 </h2>
+                <h3 class="blog-post-sub-heading"> Sub Heading</h3>
+                <p class="blog-post-sub-des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iste officia voluptas dolores omnis? Porro eum harum perferendis reiciendis quaerat hic possimus quia iure, fugit commodi accusamus aspernatur explicabo quidem!
+                </p>
+                <button type="submit" class="btn blog-post-btn">Learn More...</button>
+            </article>
+        </div>
+
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+                <img src="image/ba6.jpg" alt="blog post image" class="blog-post-image">
+
+            </aside>
+
+            <article class="blog-post-article">
+                <h2 class="blog-post-heading">Blog 1 </h2>
+                <h3 class="blog-post-sub-heading"> Sub Heading</h3>
+                <p class="blog-post-sub-des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iste officia voluptas dolores omnis? Porro eum harum perferendis reiciendis quaerat hic possimus quia iure, fugit commodi accusamus aspernatur explicabo quidem!
+                </p>
+                <button type="submit" class="btn blog-post-btn">Learn More...</button>
+            </article>
+        </div>
+
+        <div class="blog-post">
+            <aside class="blog-post-aside">
+                <img src="image/ba6.jpg" alt="blog post image" class="blog-post-image">
+
+            </aside>
+
+            <article class="blog-post-article">
+                <h2 class="blog-post-heading">Blog 1 </h2>
+                <h3 class="blog-post-sub-heading"> Sub Heading</h3>
+                <p class="blog-post-sub-des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iste officia voluptas dolores omnis? Porro eum harum perferendis reiciendis quaerat hic possimus quia iure, fugit commodi accusamus aspernatur explicabo quidem!
+                </p>
+                <button type="submit" class="btn blog-post-btn">Learn More...</button>
+            </article>
+        </div>
+    </section>
+    <!--Blog Posts section end-->
+
+    <!--Blog contact section start-->
+    <section id="blog-contact-section" class="section-center">
+        <h2 class="section-heading text-white">Contact Me</h2>
+
+        <form action="" id="contact-form">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" required autocomplete="name">
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" required autocomplete="email" >
+            </div>
+
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea type="message" id="message" placeholder="Write here..."></textarea>
+            </div>
+
+            <div class="form-control contact-frm-btn">
+                <button type="submit" class="btn form-btn" >
+                    Submit
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+    <!--Blog contact section end-->
+   </main>
+   <!--Main section end-->
+
+   <!--footer section start-->
+   <footer>
+    <p class="copyright-text">
+        Copyright &copy; by Anisul Islam. All rights reserved.
+    </p>
+    <nav aria-label="Footer Menu"> <!-- এই এট্রিবিউট মূলত এবনরমালদের জন্য স্ত্রিন রিদারের জন্য ইউজ করা হয় -->
+        <ul role="menubar2" id="menubar2" aria-label="Footer Menu">
+            <li role="none">
+                <a href="https://www.facebook.com" 
+                    target="_blank"  
+                    class="nav-link" 
+                    role="menuitem">
+                        <i class="fab fa-facebook footer-icon"></i>
+                </a>
+            </li>
+            <li role="none">
+                <a href="https://www.youtube.com"
+                    target="_blank" 
+                    class="nav-link"
+                    role="menuitem"> 
+                        <i class="fab fa-youtube footer-icon"></i>    
+                </a>
+            </li>
+            <li role="none">
+                <a href="https://www.github.com" 
+                    target="_blank"
+                    class="nav-link"
+                    role="menuitem">
+                        <i class="fab fa-github footer-icon"></i>
+                </a>
+            </li>
+            <li role="none">
+                <a href="https://www.linkedin.com"
+                    target="_blank" 
+                    class="nav-link" 
+                    role="menuitem"> 
+                        <i class="fab fa-linkedin footer-icon"></i>    
+                </a>
+             </li>
+        </ul>
+    </nav>
+   </footer>
+   <!--footer section end-->
+
+   <script src="script.js"></script>
+</body>
+</html>
